@@ -1,0 +1,25 @@
+
+// Get all relationships in the current selection and add cardinality properties for data modeling
+
+var count = 0;
+
+// Using var to declar constants
+var PREFIX = "Data:Cardinality:";
+
+var LABEL = "«${property:Stereotype}»\n${name}\n${property:Data:Cardinality:Source:Min}..${property:Data:Cardinality:Source:Max}|${property:Data:Cardinality:Target:Min}..${property:Data:Cardinality:Target:Max}";
+
+// Iterate through current selection, ensure labels are visibale on Archi canvas and add properties
+
+selection.filter("relationship").each(function(r) {
+  r.labelVisable = true;
+  r.setLabelExpression(LABEL);
+  r.specialization = "ERD";
+  r.prop(PREFIX + "Source:Min", "1");
+  r.prop(PREFIX + "Source:Max", "1");
+  r.prop(PREFIX + "Target:Min", "1");
+  r.prop(PREFIX + "Target:Max", "*");
+  count++;
+});
+
+window.alert(count + " relationships updated");
+

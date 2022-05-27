@@ -1,0 +1,21 @@
+<archimate:ArchimateDiagramModel
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Conceptual"
+    id="id-1d5f9d3d7cf64c6aa05f5f253cd8de59">
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-1a6abdbb97ac497c83714fab09c47ecf">
+    <features
+        name="labelExpression"
+        value="«${specialization}»&#xA;${name}"/>
+    <bounds
+        x="137"
+        y="95"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:BusinessObject"
+        href="BusinessObject_id-e98fd218ab4d44e19a83d0132c65745c.xml#id-e98fd218ab4d44e19a83d0132c65745c"/>
+  </children>
+</archimate:ArchimateDiagramModel>
