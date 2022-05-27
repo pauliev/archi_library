@@ -2,4 +2,17 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="library"
     id="id-458248c1a047442cbef54869c42a7c89"
-    version="4.9.0"/>
+    version="4.9.0">
+  <profiles
+      name="data:entity"
+      id="id-c6dd66dad8514b0e8f1f95041a334f2d"
+      conceptType="BusinessObject"/>
+  <profiles
+      name="data:subject area"
+      id="id-59bd4c29047b4e0aaa6e4d246771d251"
+      conceptType="BusinessObject"/>
+  <profiles
+      name="data:form"
+      id="id-f73d75e340b344f48b0c2c072f174bdf"
+      conceptType="Representation"/>
+</archimate:ArchimateModel>

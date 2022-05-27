@@ -1,0 +1,322 @@
+<archimate:SketchModel
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Application Modeling"
+    id="id-8f6d9c144b44425fa4390093e9624dba"
+    background="0">
+  <children
+      xsi:type="archimate:SketchModelSticky"
+      id="id-66ba2e5a3d65491bbd22965a3dbad61e"
+      name="Heading 3"
+      font="1|Segoe UI|10.0|1|WINDOWS|1|0|0|0|0|700|0|0|0|1|0|0|0|0|Segoe UI"
+      lineColor="#5c5c5c"
+      textAlignment="1"
+      fillColor="#ffffb5"
+      content="Element/Relationship"
+      textPosition="1">
+    <bounds
+        x="12"
+        y="132"
+        width="205"
+        height="28"/>
+  </children>
+  <children
+      xsi:type="archimate:SketchModelSticky"
+      id="id-8724463126a6499380f431f8419d0d0c"
+      name="Heading 3"
+      font="1|Segoe UI|10.0|1|WINDOWS|1|0|0|0|0|700|0|0|0|1|0|0|0|0|Segoe UI"
+      lineColor="#5c5c5c"
+      textAlignment="1"
+      fillColor="#b5ffff"
+      content="Specialization"
+      textPosition="1">
+    <bounds
+        x="228"
+        y="132"
+        width="205"
+        height="28"/>
+  </children>
+  <children
+      xsi:type="archimate:SketchModelSticky"
+      id="id-25365eda99054208a46e690d0156cbe6"
+      name="Heading 3"
+      font="1|Segoe UI|10.0|1|WINDOWS|1|0|0|0|0|700|0|0|0|1|0|0|0|0|Segoe UI"
+      fontColor="#000000"
+      lineColor="#ff0000"
+      textAlignment="1"
+      fillColor="#ffffff"
+      alpha="0"
+      content="Guidance"
+      textPosition="1">
+    <features
+        name="lineAlpha"
+        value="100"/>
+    <bounds
+        x="444"
+        y="132"
+        width="685"
+        height="28"/>
+  </children>
+  <children
+      xsi:type="archimate:SketchModelSticky"
+      id="id-13d21a8c798f46658eb3741b9225edf2"
+      name="Sticky"
+      lineColor="#5c5c5c"
+      textAlignment="1"
+      fillColor="#c0c0c0">
+    <bounds
+        x="12"
+        y="168"
+        width="1117"
+        height="8"/>
+  </children>
+  <children
+      xsi:type="archimate:SketchModelSticky"
+      id="id-065b73cc915e4ace925f8ced04b57b32"
+      name="Heading 1"
+      font="1|Segoe UI|14.0|1|WINDOWS|1|0|0|0|0|700|0|0|0|1|0|0|0|0|Segoe UI"
+      fontColor="#000000"
+      lineColor="#ff0000"
+      textAlignment="1"
+      fillColor="#ffffff"
+      alpha="0"
+      content="Entity-Control-Boundary (ECB)"
+      textPosition="1">
+    <features
+        name="lineAlpha"
+        value="100"/>
+    <bounds
+        x="12"
+        y="12"
+        width="1117"
+        height="37"/>
+  </children>
+  <children
+      xsi:type="archimate:SketchModelSticky"
+      id="id-a0db32a138174a68a85e775f2526191c"
+      name="Normal"
+      font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
+      fontColor="#000000"
+      lineColor="#ff0000"
+      textAlignment="1"
+      fillColor="#ffffff"
+      content="The entity-control-boundary (ECB), or entity-boundary-control (EBC), or boundary-control-entity (BCE) is an architectural pattern used in use-case driven object-oriented software design that structures the classes composing a software according to their responsibilities in the use-case realization.">
+    <bounds
+        x="12"
+        y="60"
+        width="1117"
+        height="49"/>
+  </children>
+  <children
+      xsi:type="archimate:SketchModelSticky"
+      id="id-82b563755ad3458ea0c9f3fadd2c93de"
+      name="Normal"
+      font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
+      lineColor="#5c5c5c"
+      textAlignment="1"
+      fillColor="#ffffb5"
+      content="Application Interface"
+      textPosition="1">
+    <bounds
+        x="12"
+        y="192"
+        width="205"
+        height="23"/>
+  </children>
+  <children
+      xsi:type="archimate:SketchModelSticky"
+      id="id-70f1525cb0754bea955c4bd0de1b1502"
+      name="Normal"
+      font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
+      lineColor="#5c5c5c"
+      textAlignment="1"
+      fillColor="#b5ffff"
+      content="app::ecb::actor"
+      textPosition="1">
+    <bounds
+        x="228"
+        y="301"
+        width="205"
+        height="23"/>
+  </children>
+  <children
+      xsi:type="archimate:SketchModelSticky"
+      id="id-76040a03e85e4dcdbe2e355f86b3da7f"
+      name="Normal"
+      font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
+      fontColor="#000000"
+      lineColor="#ff0000"
+      textAlignment="1"
+      fillColor="#ffffff"
+      alpha="0"
+      content="Actors may only know and communicate with boundaries."
+      textPosition="1">
+    <features
+        name="lineAlpha"
+        value="100"/>
+    <bounds
+        x="444"
+        y="192"
+        width="685"
+        height="23"/>
+  </children>
+  <children
+      xsi:type="archimate:SketchModelSticky"
+      id="id-42e37ea93c5640f495741582d977b593"
+      name="Normal"
+      font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
+      lineColor="#5c5c5c"
+      textAlignment="1"
+      fillColor="#ffffb5"
+      content="Application Interface"
+      textPosition="1">
+    <bounds
+        x="12"
+        y="229"
+        width="205"
+        height="23"/>
+  </children>
+  <children
+      xsi:type="archimate:SketchModelSticky"
+      id="id-bc6017b55b5945f396a210ea6bb40999"
+      name="Normal"
+      font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
+      lineColor="#5c5c5c"
+      textAlignment="1"
+      fillColor="#b5ffff"
+      content="app::ecb::boundary"
+      textPosition="1">
+    <bounds
+        x="228"
+        y="192"
+        width="205"
+        height="23"/>
+  </children>
+  <children
+      xsi:type="archimate:SketchModelSticky"
+      id="id-d4e201673ae14ea493b624086cb5a6af"
+      name="Normal"
+      font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
+      lineColor="#5c5c5c"
+      textAlignment="1"
+      fillColor="#ffffb5"
+      content="Data Object"
+      textPosition="1">
+    <bounds
+        x="12"
+        y="264"
+        width="205"
+        height="23"/>
+  </children>
+  <children
+      xsi:type="archimate:SketchModelSticky"
+      id="id-0719e514f3c9498eacc884c3365edbdb"
+      name="Normal"
+      font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
+      lineColor="#5c5c5c"
+      textAlignment="1"
+      fillColor="#b5ffff"
+      content="app::ecb::control"
+      textPosition="1">
+    <bounds
+        x="228"
+        y="229"
+        width="205"
+        height="23"/>
+  </children>
+  <children
+      xsi:type="archimate:SketchModelSticky"
+      id="id-93f07351928340c88ea00b98528b8fb4"
+      name="Normal"
+      font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
+      lineColor="#5c5c5c"
+      textAlignment="1"
+      fillColor="#b5ffff"
+      content="app::ecb::entity"
+      textPosition="1">
+    <bounds
+        x="228"
+        y="264"
+        width="205"
+        height="23"/>
+  </children>
+  <children
+      xsi:type="archimate:SketchModelSticky"
+      id="id-79a7e1bef2554d44baaca2a88e652350"
+      name="Normal"
+      font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
+      lineColor="#5c5c5c"
+      textAlignment="1"
+      fillColor="#ffffb5"
+      content="Business Actor"
+      textPosition="1">
+    <bounds
+        x="12"
+        y="301"
+        width="205"
+        height="23"/>
+  </children>
+  <children
+      xsi:type="archimate:SketchModelSticky"
+      id="id-4fd225fdebd345f485cdeba3e603159b"
+      name="Normal"
+      font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
+      fontColor="#000000"
+      lineColor="#ff0000"
+      textAlignment="1"
+      fillColor="#ffffff"
+      alpha="0"
+      content="Boundaries may communicate with actors and controls only."
+      textPosition="1">
+    <features
+        name="lineAlpha"
+        value="100"/>
+    <bounds
+        x="444"
+        y="229"
+        width="685"
+        height="23"/>
+  </children>
+  <children
+      xsi:type="archimate:SketchModelSticky"
+      id="id-7f0cbe140f354d3da0258373b95ec748"
+      name="Normal"
+      font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
+      fontColor="#000000"
+      lineColor="#ff0000"
+      textAlignment="1"
+      fillColor="#ffffff"
+      alpha="0"
+      content="Controls may know and communicate with boundaries and entities, and if needed other controls."
+      textPosition="1">
+    <features
+        name="lineAlpha"
+        value="100"/>
+    <bounds
+        x="444"
+        y="264"
+        width="685"
+        height="23"/>
+  </children>
+  <children
+      xsi:type="archimate:SketchModelSticky"
+      id="id-ce151b1ae57443aa8e4c53e408396998"
+      name="Normal"
+      font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
+      fontColor="#000000"
+      lineColor="#ff0000"
+      textAlignment="1"
+      fillColor="#ffffff"
+      alpha="0"
+      content="Entities may only know about other entities but could communicate also with controls."
+      textPosition="1">
+    <features
+        name="lineAlpha"
+        value="100"/>
+    <bounds
+        x="444"
+        y="301"
+        width="685"
+        height="23"/>
+  </children>
+</archimate:SketchModel>

@@ -1,0 +1,11 @@
+// Style: Heading 1
+
+selection.each(function(r) {
+  r.name = "Heading 1";
+  r.fontSize = 14;
+  r.fontStyle = "bold";
+  r.gradient = GRADIENT.NONE;
+});
+
+
+

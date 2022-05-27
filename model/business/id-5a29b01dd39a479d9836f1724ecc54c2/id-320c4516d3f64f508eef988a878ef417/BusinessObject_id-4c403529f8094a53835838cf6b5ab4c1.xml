@@ -1,0 +1,7 @@
+<archimate:BusinessObject
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Subject Area"
+    id="id-4c403529f8094a53835838cf6b5ab4c1">
+  <profiles
+      href="folder.xml#id-c6dd66dad8514b0e8f1f95041a334f2d"/>
+</archimate:BusinessObject>

@@ -1,0 +1,11 @@
+// Style: Normal
+
+selection.each(function(r) {
+  r.name = "Normal";
+  r.fontSize = 9;
+  r.fontStyle = "normal";
+  r.gradient = GRADIENT.NONE;
+});
+
+
+

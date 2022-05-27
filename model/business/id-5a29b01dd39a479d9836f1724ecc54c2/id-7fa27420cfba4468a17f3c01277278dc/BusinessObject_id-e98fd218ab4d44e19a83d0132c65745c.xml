@@ -1,0 +1,7 @@
+<archimate:BusinessObject
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Entity"
+    id="id-e98fd218ab4d44e19a83d0132c65745c">
+  <profiles
+      href="folder.xml#id-c6dd66dad8514b0e8f1f95041a334f2d"/>
+</archimate:BusinessObject>
