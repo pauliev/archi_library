@@ -1,0 +1,16 @@
+
+// Get all relationships in the current selection and add cardinality properties for data modeling
+
+var count = 0;
+
+var LABEL = "${if:${specialization}:«${specialization}»\n}${name}${if:${property:location}: (${property:location})}${if:${property:workload}: (${property:workload})}${if:${property:ip}:\n${property:ip}}";
+
+
+selection.each(function(r) {
+  r.labelVisable = true;
+  r.setLabelExpression(LABEL);
+  count++;
+});
+
+window.alert(count + " items updated");
+

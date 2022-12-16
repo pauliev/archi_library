@@ -1,0 +1,9 @@
+var count = 0;
+
+selection.filter("relationship").each(function(r) {
+  r.labelVisible = false;
+  count++;
+});
+
+window.alert(count + " items updated");
+
