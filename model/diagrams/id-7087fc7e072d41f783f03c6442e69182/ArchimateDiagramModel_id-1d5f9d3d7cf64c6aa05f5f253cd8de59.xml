@@ -5,8 +5,7 @@
     id="id-1d5f9d3d7cf64c6aa05f5f253cd8de59">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-1a6abdbb97ac497c83714fab09c47ecf"
-      type="1">
+      id="id-1a6abdbb97ac497c83714fab09c47ecf">
     <features
         name="labelExpression"
         value="«${specialization}»&#xA;${name}"/>
@@ -21,8 +20,7 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-7b72a71718b6427daa4d8d2fe41a1cad"
-      type="1">
+      id="id-7b72a71718b6427daa4d8d2fe41a1cad">
     <features
         name="labelExpression"
         value="«${specialization}»&#xA;${name}"/>
@@ -37,8 +35,7 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-282643fce5a44f8dba2b0515bc5b2d8a"
-      type="1">
+      id="id-282643fce5a44f8dba2b0515bc5b2d8a">
     <features
         name="labelExpression"
         value="«${specialization}»&#xA;${name}"/>
