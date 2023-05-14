@@ -1,6 +1,6 @@
 
 // Get all relationships in the current selection and add cardinality properties for data modeling
-
+ 
 var count = 0;
 
 // Using var to declar constants
